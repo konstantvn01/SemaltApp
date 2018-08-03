@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh ;
+}
+main{
+    flex: 1 0 auto;
+
+}
+h5{
+    color: white;
+}
+
+.col.s3,.col.s9{
+    min-height: 100vh; /* use "vh" instead of % */
+}
+
+.h4-font:hover{ color:blue;}
+.h4-font{
+    margin: 0;
+    padding:0.55rem 0;
+    width:100%;
+}
+.nav-menu{
+    width: 100%;
+    margin: 0;
+}
+
+.liNav{
+
+font-size: 1.8em;
+    margin-top: 10px;
+    color: #4a148c;
+
+}
+
+.liNav a:hover{
+    color:#1a237e;
+
+}
+
+
+.footerCorrect{
+    margin: 0;
+    bottom:0;
+}
+
+
